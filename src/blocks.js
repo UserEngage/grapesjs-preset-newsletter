@@ -102,7 +102,11 @@ define(function () {
       attributes: {class: 'gjs-fonts gjs-f-image'},
       content: {
         type: 'image',
-        style: {color: 'black'},
+        style: {
+          color: 'black',
+          'max-width': '100%',
+          height: 'auto',
+        },
         activeOnRender: 1
       },
     });
