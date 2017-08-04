@@ -60,7 +60,7 @@ define(function () {
     bm.add('button', {
       label: opt.buttonBlkLabel,
       category: opt.categoryLabel,
-      content: '<a class="button">Button</a>',
+      content: '<a class="button" style="padding: 10px 20px 10px 20px;font-family: Arial, sanf-serif;font-size:12px;color:rgb(255,255,255);background-color: rgb(0, 136, 255);display:inline-block;">Button</a>',
       attributes: {class: 'gjs-fonts gjs-f-button'}
     });
     bm.add('divider', {
