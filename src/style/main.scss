@@ -1,6 +1,4 @@
-$app-prefix: 'gjs-';
-$active-color: #35d7bb;
-$tag-color: #4c9790; /* #008f73 #4c9790 */
+@import "gjs_variables.scss";
 
 .#{$app-prefix}clm-tags .#{$app-prefix}sm-title,
 .#{$app-prefix}sm-sector .#{$app-prefix}sm-title {
@@ -51,7 +49,7 @@ $tag-color: #4c9790; /* #008f73 #4c9790 */
 .#{$app-prefix}sm-sector .#{$app-prefix}sm-composite.#{$app-prefix}clm-field,
 .#{$app-prefix}sm-sector .#{$app-prefix}sm-field.#{$app-prefix}sm-composite,
 .#{$app-prefix}sm-sector .#{$app-prefix}sm-stack #gjs-sm-add {
-  color: #a0aabf; /* #a0aabf #d0d6e2 */
+  color: $fontColor;
 }
 
 #gjs-rte-toolbar,
@@ -69,7 +67,7 @@ $tag-color: #4c9790; /* #008f73 #4c9790 */
 .#{$app-prefix}sm-select option,
 .#{$app-prefix}sm-unit option,
 .sp-container {
-  background-color: #373d49;
+  background-color: $mainColor;
 }
 
 .#{$app-prefix}import-label,

@@ -10,6 +10,7 @@ Demo: http://grapesjs.com/demo-newsletter-editor.html
 ## Summary
 
 * Commands
+  - `gjs-get-inlined-html` Get html with inlined CSS
   - `gjs-open-import-template` Opens a modal for the import
   - `gjs-toggle-images` Enable/Disable images
 * Blocks
@@ -55,6 +56,7 @@ Download using one of the options:
 
 * `npm i grapesjs-preset-newsletter` or `yarn add grapesjs-preset-newsletter`
 * Latest release link https://github.com/artf/grapesjs-preset-newsletter/releases/latest
+* CDN https://unpkg.com/grapesjs-preset-newsletter
 
 
 ## Usage
@@ -103,7 +105,7 @@ Start the dev server
 $ npm start
 ```
 
-Build before the commit. This will also increase the patch level version of the package
+Build in `/dist`
 
 ```sh
 $ npm run build
